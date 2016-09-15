@@ -3,15 +3,13 @@ dependencies: []
 
 galaxy_info:
   author: geerlingguy
-  description: EPEL repository for RHEL/CentOS.
+  description: DotDeb repository for Debian.
   company: "Midwestern Mac, LLC"
   license: "license (BSD, MIT)"
-  min_ansible_version: 1.8
+  min_ansible_version: 2.0
   platforms:
-    - name: EL
+    - name: Debian
       versions:
-      - 5
-      - 6
-      - 7
+      - all
   galaxy_tags:
     - packaging
