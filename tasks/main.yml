@@ -1,0 +1,9 @@
+---
+- name: Install DotDeb repo.
+  apt_repository:
+    repo: "{{ item }}"
+  with_items: "{{ dotdeb_sources }}"
+
+- name: Import DotDeb GPG key.
+  apt_key:
+    url: "{{ dotdeb_repo_gpg_key_url }}"
