@@ -6,7 +6,7 @@ Installs the [DotDeb repository](https://www.dotdeb.org/) for Debian.
 
 ## Requirements
 
-This role only is needed/runs on Debian and its derivatives.
+This role only is needed/runs on Debian and its derivatives, and doesn't do anything on Debian 9 'Stretch' or later.
 
 ## Role Variables
 

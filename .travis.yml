@@ -3,6 +3,7 @@ services: docker
 
 env:
   - distro: debian8
+  - distro: debian9
 
 script:
   # Download test shim.

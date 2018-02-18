@@ -13,6 +13,8 @@ galaxy_info:
       - all
   galaxy_tags:
     - packaging
-    - epel
+    - dotdeb
+    - php
+    - debian
     - repository
     - repo
