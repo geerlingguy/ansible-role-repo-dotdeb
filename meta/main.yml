@@ -10,7 +10,7 @@ galaxy_info:
   platforms:
     - name: Debian
       versions:
-      - all
+        - all
   galaxy_tags:
     - packaging
     - dotdeb
