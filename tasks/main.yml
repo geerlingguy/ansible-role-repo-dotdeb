@@ -2,7 +2,7 @@
 - name: Warn user this does nothing on Debian > 8.
   debug:
     msg: "NOTICE: This role doesn't do anything on Debian 9 'Stretch' or later."
-  when: ansible_distribution_version > '8'
+  when: ansible_distribution_version >= 9
 
 - block:
     - name: Install DotDeb repo.
@@ -19,4 +19,4 @@
     - name: Update apt cache if repo or key added.
       apt: update_cache=yes
       when: dotdeb_apt_repo_result.changed or dotdeb_apt_key_result.changed
-  when: ansible_distribution_version <= '8'
+  when: ansible_distribution_version < 9
