@@ -2,7 +2,8 @@
 dependencies: []
 
 galaxy_info:
-  role_name: repo-dotdeb
+  # See: https://github.com/ansible/galaxy/issues/2393
+  # role_name: repo-dotdeb
   author: geerlingguy
   description: DotDeb repository for Debian.
   company: "Midwestern Mac, LLC"
