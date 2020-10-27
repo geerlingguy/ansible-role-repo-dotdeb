@@ -1,6 +1,6 @@
 # Ansible Role: DotDeb Repository
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-repo-dotdeb.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-repo-dotdeb)
+[![Build Status](https://travis-ci.com/geerlingguy/ansible-role-repo-dotdeb.svg?branch=master)](https://travis-ci.com/geerlingguy/ansible-role-repo-dotdeb)
 
 Installs the [DotDeb repository](https://www.dotdeb.org/) for Debian.
 
